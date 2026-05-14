@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-[#f7f2eb]/70 border-b border-[#e8ddd0]">
-      <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+    <header className="fixed top-0 left-0 w-full z-50">
+      <div className="h-20 rounded-full backdrop-blur-xl bg-[#f7f2eb]/70 border border-[#e8ddd0] px-8 flex items-center justify-between shadow-[0_8px_30px_rgba(0,0,0,0.05)]">
         <div>
           <h1 className="text-3xl tracking-[0.2em] text-[#4d473f]">
             Earthé

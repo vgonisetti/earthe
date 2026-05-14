@@ -1,6 +1,7 @@
 import Categories from "@/components/home/Categories";
 import Hero from "@/components/home/Hero";
 import Philosophy from "@/components/home/Philosophy";
+import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Philosophy />
       <Categories />
+      <Footer />
     </main>
   );
 }
